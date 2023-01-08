@@ -17,9 +17,12 @@ class WeightAverage{
 	float midTermScore = scanner.nextFloat();
 	System.out.println("Enter finalExamScore");
 	float finalExamScore = scanner.nextFloat();
+
 	WeightAverage object = new WeightAverage();
+
 	float result = object.calculateWeightedAverage(assignmentScore,projectScore,quizScore,midTermScore,finalExamScore,assignmentWeight,projectWeight,quizWeight,midTermWeight,finalExamWeight);
 	System.out.println("The weighted average score is " + result + "%");
+
 	}
 	public float calculateWeightedAverage(float assignmentScore,float projectScore,float quizScore,float midTermScore,float finalExamScore ,int assignmentWeight,int projectWeight,int quizWeight,int midTermWeight,int finalExamWeight){
 		//Scanner scanner = new Scanner(System.in);
