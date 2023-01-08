@@ -26,8 +26,8 @@ class EvenOddSum{
 				         sumOfEven = sumOfEven + digit;
 			          }
 				}
-		 		System.out.println("Sum of even numbers" + sumOfEven);
-				 System.out.println("Sum of odd numbers" + sumOfOdd);
+		 		System.out.println("Sum of even numbers = " + sumOfEven);
+				 System.out.println("Sum of odd numbers = " + sumOfOdd);
 			 }
    }
 
